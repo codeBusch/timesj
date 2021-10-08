@@ -1,0 +1,34 @@
+/*
+DERS
+https://app.patika.dev/moduller/css/css-seciciler-ile-calismak,-i%CC%87stedigimiz-html-etiket-yapisina-ozelliklik-ekleyebilmek
+*/
+/* Özellik Seçiciler (Attribute Selectors) */
+[name]{
+    color: orange;
+  }
+.btn[disabled] {
+    color: orchid;
+}
+div[title~="isim"] {
+    color: orange;
+    /*~= ifadesi ile title özelliği "isim" içeren divlere eriştik.PB */
+}
+
+a[href ^= "https"] {
+    color: palegreen;
+   /* ^= ifadesi ile href özelliği "https" ile başlayan a etiketlerine eriştik. */
+} 
+/*
+  a[href *= "http"] {
+    color: orangered;
+    Burada *= ifadesi ile href özelliği "http" içeren a etiketlerine eriştik.
+  }*/
+  div[class$="test"] {
+    background: yellow;
+    /*Burada $= ifadesi ile class özelliği sonunda "test" içeren divlere eriştik. */ 
+  }
+  /* ortak kullanmak istersek*/
+  a[href*="https"][href$="com"] {
+    color: orange;
+    /*Burada https ile başlayan ve sonunda com olan a etiketlerine eriştik.*/
+}

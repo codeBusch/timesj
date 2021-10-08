@@ -1,0 +1,28 @@
+/*
+h2{
+    color: red;
+    font-size: 32px;
+}
+p{
+    color: black;
+}
+*/
+/*
+class->.text-red{} 
+id-> #id-bilgisi {}
+*/
+.text-red{
+    color: red;
+}
+.fs-small{
+    font-size: 16px;
+}
+.fs-medium{
+    font-size: 48px;
+}
+.fs-large{
+    font-size: 32px;
+}
+#first-article{
+    color: purple;
+}

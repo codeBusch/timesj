@@ -1,0 +1,8 @@
+.clock {
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 48px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
